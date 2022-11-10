@@ -53,11 +53,15 @@
 
 # Модуль \ Библиотека \ Зависимость   |   Фреймворк
 
-from decouple import config
+# from decouple import config
+#
+# passw = config("PASSWORD", cast=int)
+# secret_key = config("SECRET_KEY", default="ABCDEFG")
+#
+#
+# print(type(passw), passw)
+# print(type(secret_key), secret_key)
 
-passw = config("PASSWORD", cast=int)
-secret_key = config("SECRET_KEY", default="ABCDEFG")
 
-
-print(type(passw), passw)
-print(type(secret_key), secret_key)
+def hello(name):
+    print(f"Hello {name}")

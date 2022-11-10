@@ -9,7 +9,7 @@ class Transport:
         self.color = color
 
     def info(self):
-        print('Hello')
+        return "hello"
 
 class Car(Transport):  # Чертеж
     wheels = 4  # Атрибут класса
